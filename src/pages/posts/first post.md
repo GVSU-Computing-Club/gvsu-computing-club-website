@@ -9,5 +9,3 @@ template: post
 ---
 
 Hello all! I hope you all enjoyed you winter breaks!
-
-![testing](/images/intro.jpg)
