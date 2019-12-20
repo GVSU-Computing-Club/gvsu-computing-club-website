@@ -10,7 +10,7 @@ export default class HeroBlock extends React.Component {
               {_.get(this.props, 'section.title') ? 
               <h2 className="hero-title">{_.get(this.props, 'section.title')}</h2>
                : 
-              <h2 className="hero-title">Hi, I'm {_.get(this.props, 'pageContext.site.data.author.name')}.</h2>
+              <h2 className="hero-title">{_.get(this.props, 'pageContext.site.data.author.name')}.</h2>
               }
               <div className="hero-text">
                 {markdownify(_.get(this.props, 'section.content'))}

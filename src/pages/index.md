@@ -1,35 +1,35 @@
 ---
 title: Home
 sections:
-  - section_id: hero
+  - type: heroblock
+    section_id: hero
     component: HeroBlock
-    type: heroblock
+    title: GVSU Computing Club
     content: >-
-      This section can contain a subtitle or tagline. The recommended length is
-      one to three sentences, but can be changed as you prefer.
-  - section_id: about
-    component: ContentBlock
-    type: contentblock
+      Welcome to the GVSU Computing Club website!
+  - type: contentblock
     title: About
+    section_id: about
+    actions:
+      - label: Join our Email List!
+        url: https://forms.gle/iDVVDvWPEtRSzuBx5
+    component: ContentBlock
     content: >-
       This is the "about" excerpt. It can be used to provide a paragraph about
       yourself that people can read on the homepage to get a sense of who you
       are. There also exists a dedicated about page where you can write more
       about yourself for those who are interested.
-    actions:
-      - label: Contact Me
-        url: /contact
-  - section_id: recent-posts
-    component: PostsBlock
-    type: postsblock
+  - type: postsblock
     title: Recent Posts
-    num_posts_displayed: 4
+    section_id: recent-posts
     actions:
       - label: View Blog
         url: blog/index.html
+    component: PostsBlock
+    num_posts_displayed: 4
 menus:
   main:
-    weight: 1
     title: Home
+    weight: 1
 template: home
 ---

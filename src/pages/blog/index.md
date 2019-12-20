@@ -1,8 +1,8 @@
 ---
-title: Blog
+title: News
 menus:
   main:
+    title: News
     weight: 2
-    title: Blog
 template: blog
 ---
