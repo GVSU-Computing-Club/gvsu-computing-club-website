@@ -11,7 +11,7 @@ template: page
 All you have to do is just show up! No fees and no requirements. However, make sure to join our email list to stay up to date with events! Sign up here: https://forms.gle/iDVVDvWPEtRSzuBx5
 
 ---
-### 2. When do you guys meet?
+### 2. When and where do you guys meet?
 
 Typically our regular meetings occur Thursdays at 6pm, EOS Lab: MAK A-1-105
 
@@ -28,3 +28,8 @@ That's a good question! Here is a list of things:
 * Networking with local companies in the Grand Rapids area.
 * Social events with students and faculty.
 * Personal and Professional Development.
+
+---
+### Bonus: How did you make this website?
+
+I used StackBit, which helped set up a GatsbyJS project, in addition to providing the theme. Their website is in the footer below.

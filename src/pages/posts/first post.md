@@ -1,5 +1,6 @@
 ---
 title: Welcome to the GVSU Computing Club Website!
+author: Matthew Shan
 date: '2019-12-19'
 thumb_img_path: images/intro.jpg
 content_img_path: images/intro.jpg
@@ -9,3 +10,5 @@ template: post
 ---
 
 Hello all! I hope you all enjoyed you winter breaks!
+
+[Work in progress]
