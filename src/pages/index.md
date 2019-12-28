@@ -15,10 +15,7 @@ sections:
         url: https://forms.gle/iDVVDvWPEtRSzuBx5
     component: ContentBlock
     content: >-
-      This is the "about" excerpt. It can be used to provide a paragraph about
-      yourself that people can read on the homepage to get a sense of who you
-      are. There also exists a dedicated about page where you can write more
-      about yourself for those who are interested.
+      Hey! Welcome to GVSU Computing Club's website! Here you can find some news on whats going on in the club. Below are some posts on recent and upcoming meetings. Our email list is also a really good way to stay up to date! Hope to see you at one of our meetings! &#128515;
   - type: postsblock
     title: Recent Posts
     section_id: recent-posts
