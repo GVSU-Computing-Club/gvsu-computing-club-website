@@ -23,7 +23,8 @@ export default class Post extends React.Component {
                 }
                 {_.get(this.props, 'pageContext.frontmatter.content_img_path') && 
                 <div className="post-thumbnail">
-                  <img src={safePrefix(_.get(this.props, 'pageContext.frontmatter.content_img_path'))} alt={_.get(this.props, 'pageContext.frontmatter.title')} />
+                  <img src={safePrefix(_.get(this.props, 'pageContext.frontmatter.content_img_path'))} alt={_.get(this.props, 'pageContext.frontmatter.title')} 
+                  />
                 </div>
                 }
                 <div className="post-content">
