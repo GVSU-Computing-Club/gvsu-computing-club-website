@@ -9,6 +9,6 @@ excerpt: >-
 template: post
 ---
 
-Hello all! I hope you all enjoyed you winter breaks!
+Hello all! I hope you all enjoyed you winter break! This is our new site, written in GatsbyJS via StackBit. We will be posting upcoming club news and setup instructions on this site as a supplement to our newsletters. 
 
-[Work in progress]
+Many thanks to [Alex Patterson](ajonp.com) from OST for the help! 
