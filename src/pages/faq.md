@@ -30,6 +30,11 @@ That's a good question! Here is a list of things:
 * Personal and Professional Development.
 
 ---
+
+Don't see your question here? Send us an email! You can find it here at our [LakerLink page](https://gvsu.campuslabs.com/engage/organization/cis-computing-club).
+
+---
 ### Bonus: How did you make this website?
 
 I used StackBit, which helped set up a GatsbyJS project, in addition to providing the theme. Their website is in the footer below.
+
