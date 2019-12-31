@@ -20,7 +20,12 @@
                  url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular") format("svg");
     }
     
-    .mail:before {
+    .newsletter:before {
         font-family: FontAwesome;
         content: "\f1ea";
     }
+    .email:before {
+        font-family: FontAwesome;
+        content: "\f1d8";
+    }
+    

@@ -12,9 +12,9 @@ template: post
 
 ---
 
-1. First off, lets download the required [SDK for .NET Core 3.1](https://dotnet.microsoft.com/download). Make sure you download the installer for *Build Apps* for your system. This will install the `dotnet` command line interface.
+1. First off, lets download the required <a href="https://dotnet.microsoft.com/download" target="_blank">SDK for .NET Core 3.1</a>. Make sure you download the installer for *Build Apps* for your system. This will install the `dotnet` command line interface.
 
-2. Now, lets get a text editor for this. I highly recommand [Visual Studio Code](https://code.visualstudio.com/). It has a nice [C# extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp) and I really like having a terminal and file explorer on the same screen.
+2. Now, lets get a text editor for this. I highly recommand <a href="https://code.visualstudio.com/ target="_blank">Visual Studio Code</a>. It has a nice C# extension and I really like having a terminal and file explorer on the same screen.
 
 3. Later you will need [Azure Data Studio](https://docs.microsoft.com/en-us/sql/azure-data-studio/download?view=sql-server-ver15) to manage your database. Might as well grab it for your system now.
 

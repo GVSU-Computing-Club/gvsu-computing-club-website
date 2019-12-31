@@ -1,22 +1,31 @@
 {
     "links": [
         {
-            "type": "discord",
-            "title": "Discord",
-            "icon": "fa-discord",
-            "url": "https://discord.gg/HY6EHVe"
+            "type": "Email",
+            "title": "Email us at cclub@mail.gvsu.edu",
+            "icon": "email",
+            "url": "mailto:cclub@mail.gvsu.edu",
+            "new_window": true
         },
         {
-            "type": "email",
+            "type": "newsletter",
             "title": "Email List",
-            "icon": "mail",
-            "url": "https://forms.gle/iDVVDvWPEtRSzuBx5"
+            "icon": "newsletter",
+            "url": "https://forms.gle/iDVVDvWPEtRSzuBx5",
+            "new_window": true
         },
         {
             "type": "github",
             "title": "GitHub",
             "icon": "fa-github",
-            "url": "https://github.com/GVSU-Computing-Club"
+            "url": "https://github.com/GVSU-Computing-Club",
+            "new_window": true
+        },
+        {
+            "type": "youtube",
+            "title": "YouTube",
+            "icon": "fa-youtube",
+            "new_window": true
         }
     ]
 }

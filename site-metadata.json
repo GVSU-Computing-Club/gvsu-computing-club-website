@@ -1,5 +1,5 @@
 {
-    "title": "Stackbit Fresh Theme",
+    "title": "GVSU Computing Club",
     "layout_style": "overflow",
     "palette": "blue",
     "header": {
@@ -11,11 +11,11 @@
         "has_social": true
     },
     "footer": {
-        "content": "&copy; All rights reserved.",
+        "content": "&copy; All rights reserved. Email us at:",
         "links": [
             {
-                "text": "Made with Stackbit",
-                "url": "https://www.stackbit.com",
+                "text": "cclub@mail.gvsu.edu",
+                "url": "mailto:cclub@mail.gvsu.edu",
                 "new_window": true
             }
         ]
