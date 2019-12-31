@@ -1,7 +1,7 @@
 ---
 title: Getting Started with .NET Core Web API
 author: Matthew Shan
-date: '2019-12-27'
+date: '2020-01-23'
 thumb_img_path: images/thumbnails/dotnet.png
 excerpt: >-
   Here are the setup instructions for our Web API meeting on January 23, 2020.
@@ -19,7 +19,7 @@ template: post
 
 2. Now, lets get a text editor for this. I highly recommand <a href="https://code.visualstudio.com/ target="_blank">Visual Studio Code</a>. It has a nice C# extension and I really like having a terminal and file explorer on the same screen.
 
-3. Later you will need [Azure Data Studio](https://docs.microsoft.com/en-us/sql/azure-data-studio/download?view=sql-server-ver15) to manage your database. Might as well grab it for your system now.
+3. Later you will need <a href="https://docs.microsoft.com/en-us/sql/azure-data-studio/download?view=sql-server-ver15">Azure Data Studio</a> to manage your database. Might as well grab it for your system now.
 
 <img src="/images/thumbnails/dotnet.png" 
 alt=".NET Core logo"  border="10" style=" width: 60%; height: 60%; text-align: center; display: block; margin: 0 auto;"/>
@@ -71,4 +71,4 @@ You will be provided with a localhost URL. Ctrl+Click it and you will now be tak
 &nbsp; &#8594; &nbsp; `WeatherForecast.cs` <br/>
 &nbsp; &#8594; &nbsp; `Controllers/WeatherForecastController.cs` <br/>
 
-5. 
+5. <Work in progress. More to come!>
