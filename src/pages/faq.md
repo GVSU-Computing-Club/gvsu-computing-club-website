@@ -31,7 +31,7 @@ That's a good question! Here is a list of things:
 
 ---
 
-Don't see your question here? Send us an email! You can find it here at our [LakerLink page](https://gvsu.campuslabs.com/engage/organization/cis-computing-club).
+Don't see your question here? Send us an email at <a href="mailto:cclub@mail.gvsu.edu" target="_blank">cclub@mail.gvsu.edu</a>
 
 ---
 ### Bonus: How did you make this website?

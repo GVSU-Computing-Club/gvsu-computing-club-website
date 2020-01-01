@@ -16,7 +16,7 @@ sections:
         new_window: true
     component: ContentBlock
     content: >-
-      Hey! Welcome to GVSU Computing Club's website! We are dedicated to keeping up to date to the technology today and networking with local companies. Here you can find some news on whats going on in the club. Below are some posts on recent and upcoming meetings. Our email list is also a really good way to stay up to date! Hope to see you at one of our meetings! &#128515; 
+      Hey! Welcome to GVSU Computing Club's website! We are dedicated to keeping up to date to the technology today and networking with local companies. Below are some posts on recent and upcoming meetings. Our email list is also a really good way to stay up to date! Hope to see you at one of our meetings! &#128515; 
   - type: postsblock
     title: Recent Posts
     section_id: recent-posts
