@@ -28,7 +28,9 @@ alt=".NET Core logo"  border="10" style=" width: 60%; height: 60%; text-align: c
 
 ---
 
-**If you've already setup everything, you are good to go! These next instructions are on setting up an API project, which will be explained at our meeting. These notes are here to help you with the lecture.**
+**If you've already setup everything, you are good to go! These next instructions are on setting up an API project, which will be explained at our meeting. These notes are here to supplement the lecture.**
+
+Intro: Follow along the C# Introduction.
 
 1. Lets start off by making the project. Use your system's command line/terminal to traverse to your desired folder. Then run the following command: <br/>
 &nbsp; &#8594; &nbsp; `dotnet new webapi -n [Name of your project]`
@@ -67,8 +69,10 @@ using Microsoft.OpenApi.Models;
 &nbsp; &#8594; &nbsp; `dotnet run`<br/>
 You will be provided with a localhost URL. Ctrl+Click it and you will now be taken to the Swagger UI. You should see a `WeatherForecast` GET request, provided by Microsoft.
 
-4. Now lets remove some of the extra files `dotnet` generated for use. We will create our own files now. <br/>
-&nbsp; &#8594; &nbsp; `WeatherForecast.cs` <br/>
-&nbsp; &#8594; &nbsp; `Controllers/WeatherForecastController.cs` <br/>
+4. I originally wanted to delete the extra weather files created by `dotnet`, but lets actually keep them as future reference. For the sake of organizaton, create a `Models` folder and `WeatherForecast.cs` into `Models`. Now during the presentation, learn about Controllers and Models and how the relate to the API. 
 
-5. <Work in progress. More to come!>
+<hr/>
+
+5. Follow along and create the required models and controllers, or create your own. We are going to learn about the HTTP Requests that are used in REST APIs
+
+6. Now that we've learned the project structure of the Web API, and got a GET http request working, next week we will be connecting our project to an actual database and making POST, PUT, and DELETE requests.
