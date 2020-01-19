@@ -17,7 +17,7 @@ template: post
 
 
 
-1. First off, lets download the required <a href="https://dotnet.microsoft.com/download" target="_blank">SDK for .NET Core 3.1</a>. Make sure you download the installer for *Build Apps* for your system. This will install the `dotnet` command line interface.
+1. First off, lets download the required <a href="https://dotnet.microsoft.com/download" target="_blank">SDK for .NET Core 3.1.1</a>. Make sure you download the installer for *Build Apps* for your system. This will install the `dotnet` command line interface.
 
 2. Now, lets get a text editor for this. I highly recommand <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a>. It has a nice C# extension and I really like having a terminal and file explorer on the same screen.
 
