@@ -15,11 +15,15 @@ template: post
 
 ---
 
+
+
 1. First off, lets download the required <a href="https://dotnet.microsoft.com/download" target="_blank">SDK for .NET Core 3.1</a>. Make sure you download the installer for *Build Apps* for your system. This will install the `dotnet` command line interface.
 
 2. Now, lets get a text editor for this. I highly recommand <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a>. It has a nice C# extension and I really like having a terminal and file explorer on the same screen.
 
 3. Later you will need <a href="https://docs.microsoft.com/en-us/sql/azure-data-studio/download?view=sql-server-ver15" target="_blank">Azure Data Studio</a> to manage your database. Its a nice database management software created by Microsoft. Might as well grab it for your system now.
+
+*Alternatively to Steps 1 & 2, if you like IDEs you can use Visual Studio 2019 (Free with student accounts). Directions will be a different, but concepts will be the same. I choose not to use Visual Sudio 2019 because it is a little heavy.* 
 
 <img src="/images/thumbnails/dotnet.png" 
 alt=".NET Core logo"  border="10" style=" width: 60%; height: 60%; text-align: center; display: block; margin: 0 auto;"/>
