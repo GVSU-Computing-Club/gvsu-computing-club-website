@@ -23,7 +23,7 @@ template: post
 
 3. Later you will need <a href="https://docs.microsoft.com/en-us/sql/azure-data-studio/download?view=sql-server-ver15" target="_blank">Azure Data Studio</a> to manage your database. Its a nice database management software created by Microsoft. Might as well grab it for your system now.
 
-*Alternatively to Steps 1 & 2, if you like IDEs you can use Visual Studio 2019 (Free with student accounts). Directions will be a different, but concepts will be the same. I choose not to use Visual Sudio 2019 because it is a little heavy.* 
+*Alternatively to Steps 1 & 2, if you like IDEs you can use Visual Studio 2019. If you do, make sure you install required components for .NET Core. Be warned: directions will be a different although concepts will be the same. I personally choose not to use Visual Sudio 2019 because it is a little heavy.* 
 
 <img src="/images/thumbnails/dotnet.png" 
 alt=".NET Core logo"  border="10" style=" width: 60%; height: 60%; text-align: center; display: block; margin: 0 auto;"/>
