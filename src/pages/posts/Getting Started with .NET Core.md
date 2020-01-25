@@ -8,6 +8,9 @@ excerpt: >-
 template: post
 ---
 
+#### Update: Code and Presentation from the meeting
+
+<b>[</b>Intro to C# Repo: <a href="https://github.com/GVSU-Computing-Club/C-Sharp-Intro-Code" target="_blank">here</a><b>]&nbsp;\[</b> Web API Code: <a href="https://github.com/GVSU-Computing-Club/dotnet-webapi-sample" target="_blank">here</a> <b>]&nbsp;[</b>  Presentation PDF: <a href="/files/Week 1 Web API.pdf" target="_blank">here</a> <b>]</b>
 
 
 
