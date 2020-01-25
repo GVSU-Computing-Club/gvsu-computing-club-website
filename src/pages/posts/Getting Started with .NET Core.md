@@ -1,10 +1,10 @@
 ---
-title: Getting Started with .NET Core Web API
+title: Web API Part 1 - Getting Started with .NET Core Web API
 author: Matthew Shan
 date: '2020-01-23'
 thumb_img_path: images/thumbnails/dotnet.png
 excerpt: >-
-  Here are the setup instructions for our Web API meeting on January 23, 2020.
+  Here are the instructions for our Web API meeting on January 23, 2020.
 template: post
 ---
 
