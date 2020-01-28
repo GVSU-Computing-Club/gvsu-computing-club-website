@@ -14,9 +14,9 @@ template: post
 
 Before you get started here, if you haven't already refer to the previous post for setup: <a href="../Getting%20Started%20with%20.NET%20Core/"> Here </a>
 
-Your current code should be something like <a href="https://github.com/GVSU-Computing-Club/dotnet-webapi-sample" target="_blank"> this </a>
+Your current code should be something like <a href="https://github.com/GVSU-Computing-Club/dotnet-webapi-sample" target="_blank"> this</a>
 
-If you want to deploy app to the cloud, create a Microsoft Azure account: here
+If you want to deploy app to the cloud, create a Microsoft Azure account: <a href="https://azure.microsoft.com/en-us/"> Here</a>. You will need your credit card, but they won't charge it without your consent. But if that isn't your cup of tea, you can just watch.
 
 ## Next Steps
 
@@ -27,9 +27,9 @@ Since last week we went a bit fast on the last part, lets review the controller 
 
 1. Lets make a database. I use <a href="https://www.gearhost.com/">GearHost</a> which lets us host a database for free. No credit card required.
 
-2. Now lets install the EntityFramework tool to our dotnet command line. It's what will bridge our C# Code and our database. <br/> &nbsp; &#8594; &nbsp; `dotnet tool install --global dotnet-ef` <br/> Lets also get all the required packages to our project in the meantime/<br/> &nbsp; &#8594; &nbsp; `dotnet add package Microsoft.EntityFrameworkCore`<br/> &nbsp; &#8594; &nbsp; `dotnet add package Microsoft.EntityFramework.SqlServer`<br/> &nbsp; &#8594; &nbsp; `dotnet add package Microsoft.EntityFramework.Design`
+2. Now lets install the EntityFramework tool to our dotnet command line. It's what will bridge our C# Code and our database. <br/> &nbsp; &#8594; &nbsp; `dotnet tool install --global dotnet-ef` <br/> Lets also get all the required packages to our project in the meantime/<br/> &nbsp; &#8594; &nbsp; `dotnet add package Microsoft.EntityFrameworkCore`<br/> &nbsp; &#8594; &nbsp; `dotnet add package Microsoft.EntityFrameworkCore.SqlServer`<br/> &nbsp; &#8594; &nbsp; `dotnet add package Microsoft.EntityFrameworkCore.Design`
 
-3. Create a CISClassContext class.
+3. Create a `CISClassContext.cs` class in the models folder.
 ```c#
   using Microsoft.EntityFrameworkCore;  
   namespace MyAPI.Models {
@@ -38,12 +38,12 @@ Since last week we went a bit fast on the last part, lets review the controller 
 
           }
 
-          public DbSet<CISClass> CISClassItems {get; set;}
+          public DbSet<CISClassModel> CISClassItems {get; set;}
       }
   }
 ```
 
-4. ConnectionString in App Settings (appsettings.json)
+4. ConnectionString in App Settings (appsettings.json). This info is CONFIDENTIAL. Make sure you put it in your .gitignore when you push API code to a repository.
 ```json
   {
     "Data": {
@@ -54,7 +54,7 @@ Since last week we went a bit fast on the last part, lets review the controller 
   }
 ```
 
-5. Configuration in Startup: 
+5. Code to add in `Startup.cs`: 
 Up top add this:
 ```c#
 using Microsoft.EntityFrameworkCore;
@@ -85,9 +85,9 @@ Now have your `ConfigureServices()` method look like this
 
 7. Migrations. Lets have EnitityFramework now generate our database table based on the CISClassModel class. <br/> &nbsp; &#8594; &nbsp; `dotnet ef migrations add AddCISClassToDB` <br/> &nbsp; &#8594; &nbsp; `dotnet ef database update`
 
-8. Look at the data in Azure Data Studio 
+8. Look at the data in Azure Data Studio. 
 
-9. Add our context to our controllers
+9. Add our context to our controllers.
 
 10. POST, PUT, DELETE Requests.
 
