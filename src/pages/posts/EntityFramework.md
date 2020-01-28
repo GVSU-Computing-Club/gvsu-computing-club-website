@@ -27,28 +27,74 @@ Since last week we went a bit fast on the last part, lets review the controller 
 
 1. Lets make a database. I use <a href="https://www.gearhost.com/">GearHost</a> which lets us host a database for free. No credit card required.
 
-2. Now lets install the EntityFramework tool to our dotnet command line. It's what will bridge our C# Code and our database. <br/> &nbsp; &#8594; &nbsp; `dotnet tool install --global dotnet-ef`
+2. Now lets install the EntityFramework tool to our dotnet command line. It's what will bridge our C# Code and our database. <br/> &nbsp; &#8594; &nbsp; `dotnet tool install --global dotnet-ef` <br/> Lets also get all the required packages to our project in the meantime/<br/> &nbsp; &#8594; &nbsp; `dotnet add package Microsoft.EntityFrameworkCore`<br/> &nbsp; &#8594; &nbsp; `dotnet add package Microsoft.EntityFramework.SqlServer`<br/> &nbsp; &#8594; &nbsp; `dotnet add package Microsoft.EntityFramework.Design`
 
-3. CISClassContext : DbContext
+3. Create a CISClassContext class.
+```c#
+  using Microsoft.EntityFrameworkCore;  
+  namespace MyAPI.Models {
+      public class CISClassContext : DbContext {
+          public CISClassContext(DbContextOptions<CISClassContext> options) : base(options){ 
 
-4. ConnectionString in App Settings
+          }
 
-5. Configuration in Startup
+          public DbSet<CISClass> CISClassItems {get; set;}
+      }
+  }
+```
 
-6. Primary key in our model
+4. ConnectionString in App Settings (appsettings.json)
+```json
+  {
+    "Data": {
+      "APIConnection": {
+        "ConnectionString": "Server=[serverName];Database=[datbaseName];User Id=[userId];Password=[password];Trusted_Connection=False"
+      }
+    } 
+  }
+```
 
-7. Migrations
+5. Configuration in Startup: 
+Up top add this:
+```c#
+using Microsoft.EntityFrameworkCore;
+using MyAPI.Models;
+```
+Now have your `ConfigureServices()` method look like this
+```c#
+        // This method gets called by the runtime. Use this method to add services to the container.
+        public void ConfigureServices(IServiceCollection services)
+        {
+            /** NEW STUFF BELOW HERE **/
+            //Adding our DBContext
+            services.AddDbContext<CISClassContext>(
+                opt => opt.UseSqlServer(Configuration["Data:APIConnection:ConnectionString"])
+            );
+            /** NEW STUFF ABOVE HERE **/
 
-8. Add our context to our controllers
+            services.AddControllers();
+            // Register the Swagger generator, defining 1 or more Swagger documents
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
+            });
+        }
+```
 
-9. Add data our database
+6. Primary key in our model. We can just add an ID property to our class. 
+
+7. Migrations. Lets have EnitityFramework now generate our database table based on the CISClassModel class. <br/> &nbsp; &#8594; &nbsp; `dotnet ef migrations add AddCISClassToDB` <br/> &nbsp; &#8594; &nbsp; `dotnet ef database update`
+
+8. Look at the data in Azure Data Studio 
+
+9. Add our context to our controllers
 
 10. POST, PUT, DELETE Requests.
 
 ### Deploying to Azure
 
-1.
+1. Press Ctrl+Shift+X to open the extensions tab. Then add the `Azure App Service` to VS Code.
 
-2.
+2. Now create a publish folder by doing the following command:<br/> &nbsp; &#8594; &nbsp; `dotnet publish -c Release -o ./Publish`
 
-3.  
+3. Right Click the Publish Folder and click "Deploy to Web App"
