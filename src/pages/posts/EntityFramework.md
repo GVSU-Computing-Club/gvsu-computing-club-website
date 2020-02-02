@@ -7,6 +7,9 @@ excerpt: >-
   Now that we have the basics of a Web API down, lets hook it up to a database with Entity Framework and finish it off!
 template: post
 ---
+#### Update: Code from the meeting
+
+<b>[</b>Repo of Code this week: <a href="https://github.com/GVSU-Computing-Club/dotnet-webapi-sample/tree/EntityFramework" target="_blank">here</a><b>]
 
 ## Setup Instructions
 
